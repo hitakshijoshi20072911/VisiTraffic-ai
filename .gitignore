@@ -1,0 +1,41 @@
+# .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual environments
+venv/
+venv311/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data – keep raw datasets out of the repo
+data/raw/
+data/processed/
+data/train_subset/
+
+# Model weights (too large) – keep only small ones, else store in a release
+*.h5
+*.pb
+*.weights
+*.onnx
+!models/detector_trained.h5   # if you want to include a small placeholder
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env

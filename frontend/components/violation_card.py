@@ -1,0 +1,1 @@
+# frontend/components/violation_card.py

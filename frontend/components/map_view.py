@@ -1,0 +1,1 @@
+# frontend/components/map_view.py
